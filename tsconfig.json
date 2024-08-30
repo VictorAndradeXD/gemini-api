@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,  
+    "skipLibCheck": true,       
+    "sourceMap": true,          
+    "lib": ["ES6", "DOM"],      
+    "baseUrl": ".",             
+    "paths": {                  
+      "@app/*": ["src/*"]
+    }
+  },
+  "include": ["src"],           
+  "exclude": ["node_modules"]  
+}
